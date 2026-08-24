@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PlusStudioLevelFormat</name>
+    </assembly>
+    <members>
+        <member name="M:PlusStudioLevelFormat.BaldiLevel.#ctor(PlusStudioLevelFormat.ByteVector2)">
+            <summary>
+            Creates a new level that is properly initialized with the specified width and height
+            </summary>
+            <param name="size"></param>
+        </member>
+        <member name="M:PlusStudioLevelFormat.BaldiLevel.#ctor">
+            <summary>
+            Creates an uninitialized level. Call .Initialize before attempting to access cells or other such data!
+            </summary>
+        </member>
+        <member name="M:PlusStudioLevelFormat.BaldiLevel.Initialize(PlusStudioLevelFormat.ByteVector2)">
+            <summary>
+            Initializes the cells for the specified BaldiLevel
+            </summary>
+            <param name="size"></param>
+        </member>
+    </members>
+</doc>
